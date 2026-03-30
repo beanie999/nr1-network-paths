@@ -1,0 +1,93 @@
+.my-nerdlet {
+  outline: 1px solid black;
+}
+
+.error-text {
+  color: red;
+}
+
+.good-text {
+  color: green;
+}
+
+table {
+  border-collapse: collapse; /* This is the most important line */
+}
+
+tbody, tr {
+  padding: 0px; /* Adjust this number to your liking; 0 removes it entirely */
+}
+
+td, th {  
+  padding-right: 5px; /* Adjust this number to your liking */
+  height: 0px;
+}
+
+.circle-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  
+  width: 1px;           /* Adjust size as needed */
+  height: 1px;          /* Height must match Width */
+  
+  border-radius: 50%;
+}
+
+.circle-number.normal {
+  color: blue;
+  border: 1px solid blue;
+  background-color: blue;
+}
+
+.circle-number.critical {
+  color: red;
+  border: 1px solid red;
+  background-color: red;;
+}
+
+.circle-number.warning {
+  color: orange;
+  border: 1px solid orange;
+  background-color: orange;
+}
+
+.circle-number.unknown {
+  color: gray;
+  border: 1px solid gray;
+  border-radius: 30%;
+  width: 20px;
+  height: 20px;
+}
+
+.store-name {
+  font-weight: bold;
+  color: orange;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;  /* Aligns them vertically along the center axis */
+  justify-content: flex-start; /* Keeps them at the start of the horizontal line */
+  flex-direction: row;
+  gap: 2px; /* Space between circles */
+}
+
+.flex-item {
+  margin-left: 10px; /* Space between the text and the dropdown */
+  display: inline-flex;
+  align-items: center;
+}
+
+table tr th:nth-child(2),
+table tr td:nth-child(2),
+table tr th:nth-child(3),
+table tr td:nth-child(3),
+table tr th:nth-child(4),
+table tr td:nth-child(4),
+table tr th:nth-child(5),
+table tr td:nth-child(5),
+table tr th:nth-child(6),
+table tr td:nth-child(6) {
+  text-align: right;
+}

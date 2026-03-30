@@ -1,0 +1,7 @@
+{
+  "schemaType": "LAUNCHER",
+  "id": "launcher",
+  "displayName": "Network Path Analysis",
+  "description": "Launchpad for Network Path Analysis Nerdpack",
+  "rootNerdletId": "nr1-network-paths"
+}

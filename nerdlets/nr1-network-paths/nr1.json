@@ -1,0 +1,14 @@
+{
+  "schemaType": "NERDLET",
+  "id": "nr1-network-paths",
+  "displayName": "Network Path Analysis",
+  "description": "",
+  "context": {
+    "entities": [
+      {
+        "domain": "EXT",
+        "type": "SERVICE"
+      }
+    ]
+  }
+}
